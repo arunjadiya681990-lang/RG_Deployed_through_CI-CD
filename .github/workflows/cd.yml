@@ -3,7 +3,7 @@ name: Terraform CD Pipeline
 on:
   push:
     branches:
-      - main
+      - feature
 
 jobs:
   terraform-cd:
